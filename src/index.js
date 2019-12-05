@@ -13,13 +13,13 @@ ReactDOM.render(
   <Router>
     <Navbar className="bg-warning">
       <Link className="p-3" to="/">About1</Link>
-      <Link className="p-3" to="/main2">About2</Link>
-      <Link className="p-3" to="/main3">About3</Link>
+      <Link className="p-3" to="/about2">About2</Link>
+      <Link className="p-3" to="/about3">About3</Link>
     </Navbar>
     <Switch>
         <Route exact path="/" component={About1} />
-        <Route path="/main2" component={About2} />
-        <Route path="/main3" component={About3} />
+        <Route path="/about2" component={About2} />
+        <Route path="/about3" component={About3} />
     </Switch>
   </Router>,
   document.getElementById('root')

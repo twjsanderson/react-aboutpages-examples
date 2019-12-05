@@ -31,10 +31,11 @@ const About3 = () => {
                 <img 
                     src={CEO}
                     className="img-fluid rounded-circle m-4"
+                    alt="description"
                 />
+                <hr/>
                 <h4>Jane Doe</h4>
                 <small>CEO</small>
-                <hr/>
                 <p className="w-50 mx-auto">Fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies 
                 tristique nulla aliquet enim tortor at auctor urna.</p>
             </Col>
@@ -42,10 +43,11 @@ const About3 = () => {
                 <img 
                     src={CTO} 
                     className="img-fluid rounded-circle m-4"
+                    alt="description"
                 />
+                <hr/>
                 <h4>Sarah Jone</h4>
                 <small>CTO</small>
-                <hr/>
                 <p className="w-50 mx-auto">Frmentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies 
                 tristique nulla aliquet enim tortor at auctor urna.</p>                 
             </Col>
@@ -53,10 +55,11 @@ const About3 = () => {
                 <img 
                     src={COO}
                     className="img-fluid rounded-circle m-4"
+                    alt="description"
                 />
+                <hr/>
                 <h4>John James</h4>
                 <small>COO</small>
-                <hr/>
                 <p className="w-50 mx-auto">Frmentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies 
                     tristique nulla aliquet enim tortor at auctor urna.</p>                             
             </Col>
